@@ -1,0 +1,912 @@
+[1] "Der.p"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.421946 (0.6731)
+1 - 3 :  1.278938 (0.3014)
+2 - 3 :  1.473948 (0.4215)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Blo.t"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.591557 (0.5541)
+1 - 3 :  1.874463 (0.1826)
+2 - 3 :  1.545185 (0.1835)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Alt.a"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.195189 (0.8452)
+1 - 3 : -0.621287 (1.0000)
+2 - 3 : -0.512597 (0.9123)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Asp.f1"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.317047 (0.7512)
+1 - 3 :  1.082815 (0.8367)
+2 - 3 :  0.905146 (0.5481)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Asp.f2"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.276098 (0.7825)
+1 - 3 : -0.283158 (1.0000)
+2 - 3 : -0.419198 (1.0000)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Asp.f6"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.245774 (0.8059)
+1 - 3 : -0.442345 (0.9874)
+2 - 3 : -0.560544 (1.0000)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Asp.f8"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.762059 (0.6690)
+1 - 3 : -0.560017 (0.5755)
+2 - 3 : -0.938877 (1.0000)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Asp.f15"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.381611 (1.0000)
+1 - 3 :  0.529955 (1.0000)
+2 - 3 :  0.327888 (0.7430)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Asp.f17"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.170117 (1.0000)
+1 - 3 :  0.061842 (1.0000)
+2 - 3 : -0.025578 (0.9796)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Age"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -1.918335 (0.1652)
+1 - 3 : -0.990005 (0.4833)
+2 - 3 : -0.029672 (0.9763)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "BMI.kg.m2."
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -2.293781 (0.0654)
+1 - 3 : -0.411597 (0.6806)
+2 - 3 :  0.724143 (0.7035)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Asian_European"
+[1] "Asian_European"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+---------------------------
+1 - 2 : -6.693614 (0.0000)*
+1 - 3 : -1.312165 (0.1895)
+2 - 3 :  2.003909 (0.0676)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Gender..Male.0..Female.1."
+[1] "Smoking.status..Past.0..Current.1..Never.2."
+[1] "BSI_Bronchiectasis_severity_index"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.535857 (0.8881)
+1 - 3 :  0.616203 (1.0000)
+2 - 3 :  0.342431 (0.7320)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "A.fumigatus_conidial_burden_qPCR"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  1.150032 (0.3752)
+1 - 3 : -0.791185 (0.4288)
+2 - 3 : -1.344406 (0.5365)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "A.terreus_conidial_burden_qPCR"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+---------------------------
+1 - 2 : -2.751115 (0.0178)*
+1 - 3 :  0.221378 (0.8248)
+2 - 3 :  1.571948 (0.1739)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "MMRC_score"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+---------------------------
+1 - 2 : -3.384644 (0.0021)*
+1 - 3 : -0.390753 (0.6960)
+2 - 3 :  1.281598 (0.3000)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "FEV1."
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.976165 (0.3290)
+1 - 3 : -1.547425 (0.3653)
+2 - 3 : -1.032802 (0.4525)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Number_of_lobes_affected"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.334391 (1.0000)
+1 - 3 : -0.119312 (1.0000)
+2 - 3 :  0.047478 (0.9621)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "No_of_hospital_adm_1yr_before_study"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  1.098690 (0.8157)
+1 - 3 : -0.454418 (0.6495)
+2 - 3 : -0.987838 (0.4848)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "No_of_exacerbations_1yr_before_study"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+---------------------------
+1 - 2 : -2.540134 (0.0332)*
+1 - 3 : -0.608413 (0.5429)
+2 - 3 :  0.651785 (0.7718)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Disease_severity"
+[1] "Disease_severity"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.987843 (0.4848)
+1 - 3 :  0.519759 (0.6032)
+2 - 3 :  0.997557 (0.9555)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Broncoodialator..Yes.0..No.1.."
+[1] "Inhaled.corticosteroids..Yes.0..No.1."
+[1] "Inhaled.corticosteroids..Yes.0..No.1."
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  2.178521 (0.0881)
+1 - 3 : -0.601179 (0.5477)
+2 - 3 : -1.663734 (0.1442)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Mucolytic..Yes.0..No.1."
+[1] "Mucolytic..Yes.0..No.1."
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+---------------------------
+1 - 2 : -3.236075 (0.0036)*
+1 - 3 : -1.368226 (0.2569)
+2 - 3 :  0.246874 (0.8050)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Long.term.antibiotics..Yes.0..No.1."
+[1] "Antifungal..Yes.0..No.1."
+[1] "Oral.steroids..Yes.0..No.1."
+[1] "Pseudomonas.aeruginosa.presence..by.culture."
+[1] "Pneumococcal.vaccine..Yes.0..No.1."
+[1] "Influenza.vaccine..Yes.0..No.1."
+[1] "Pseudomonas.aeruginosa.status..by.qPCR...positive.0..negative.1."
+[1] "Aetiology..idiopathic.0..post.tuberculosis.1..cvid.2..primary.ciliary.dyskinesia.3..CHildhood.pneumonia.4..hypogammaglobulinemia.5..CHronic.aspiration.6."
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -1.225223 (0.6615)
+1 - 3 :  0.444129 (0.6569)
+2 - 3 :  1.039999 (0.4475)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "TARC"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.308537 (1.0000)
+1 - 3 :  0.064112 (0.9489)
+2 - 3 :  0.214940 (1.0000)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Total_IgE"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -1.752808 (0.2389)
+1 - 3 :  0.166499 (0.8678)
+2 - 3 :  1.026569 (0.4569)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Aspergillus.IgG"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.298411 (0.7654)
+1 - 3 : -0.480319 (1.0000)
+2 - 3 : -0.352803 (1.0000)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Galactomannan"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  1.874456 (0.1826)
+1 - 3 :  1.850450 (0.0964)
+2 - 3 :  1.039171 (0.2987)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "sABPA_serological_allergic_bronchopulmonary_aspergillosis_diagnosis"
+[1] "EGF"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.958558 (0.3378)
+1 - 3 : -2.110373 (0.1045)
+2 - 3 : -1.590935 (0.1674)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Eotaxin"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  2.267497 (0.0701)
+1 - 3 : -0.309212 (0.7572)
+2 - 3 : -1.457182 (0.2176)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "FGF.2"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -2.306040 (0.0633)
+1 - 3 : -1.250019 (0.3169)
+2 - 3 : -0.058698 (0.9532)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Flt.3L"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.817308 (0.6206)
+1 - 3 : -0.704316 (0.4812)
+2 - 3 : -1.109064 (0.8022)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "Fractalkine"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -1.321606 (0.5589)
+1 - 3 : -0.379643 (1.0000)
+2 - 3 :  0.297978 (0.7657)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "G.CSF"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.645467 (1.0000)
+1 - 3 : -0.391668 (1.0000)
+2 - 3 : -0.057577 (0.9541)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "GM.CSF"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  1.126565 (0.7798)
+1 - 3 :  0.621287 (0.8016)
+2 - 3 :  0.039132 (0.9688)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "GRO"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.730867 (0.6973)
+1 - 3 : -0.613270 (0.5397)
+2 - 3 : -0.975462 (0.9880)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IFNa2"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -1.245429 (0.6389)
+1 - 3 :  0.006871 (0.9945)
+2 - 3 :  0.639880 (0.7834)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IFNg"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.116385 (0.9073)
+1 - 3 :  0.218023 (1.0000)
+2 - 3 :  0.155537 (1.0000)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.10"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  1.796517 (0.2172)
+1 - 3 : -0.578055 (0.5632)
+2 - 3 : -1.482506 (0.2073)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.12p40"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.032101 (0.9744)
+1 - 3 : -0.616420 (1.0000)
+2 - 3 : -0.590709 (0.8321)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.12p70"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.574314 (1.0000)
+1 - 3 : -0.006298 (0.9950)
+2 - 3 :  0.285749 (1.0000)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.13"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.081831 (0.9348)
+1 - 3 : -0.262830 (1.0000)
+2 - 3 : -0.300424 (1.0000)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.15"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.459713 (1.0000)
+1 - 3 :  0.067854 (0.9459)
+2 - 3 : -0.166874 (1.0000)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.17A"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.840496 (0.4006)
+1 - 3 :  1.372845 (0.5094)
+2 - 3 :  0.924661 (0.5327)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.1RA"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+---------------------------
+1 - 2 : -2.444684 (0.0435)*
+1 - 3 : -0.478706 (0.6321)
+2 - 3 :  0.771341 (0.6608)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.1a"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.446870 (0.9825)
+1 - 3 :  0.281154 (0.7786)
+2 - 3 :  0.504036 (1.0000)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.1b"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  1.295786 (0.5851)
+1 - 3 : -0.235344 (0.8139)
+2 - 3 : -0.890471 (0.5598)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.2"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.868909 (1.0000)
+1 - 3 : -0.143440 (0.8859)
+2 - 3 : -0.582964 (0.8399)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.3"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  1.076876 (0.4223)
+1 - 3 :  1.302128 (0.5786)
+2 - 3 :  0.734858 (0.4624)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.4"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.168580 (0.8661)
+1 - 3 :  1.585857 (0.1692)
+2 - 3 :  1.647392 (0.2984)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.5"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.434869 (0.6637)
+1 - 3 : -0.459237 (0.9691)
+2 - 3 : -0.673305 (1.0000)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.6"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.431594 (1.0000)
+1 - 3 : -0.160045 (0.8728)
+2 - 3 : -0.377008 (1.0000)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.7"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+---------------------------
+1 - 2 : -2.636464 (0.0251)*
+1 - 3 :  0.686565 (0.4924)
+2 - 3 :  2.016350 (0.0656)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.8"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+---------------------------
+1 - 2 :  2.624356 (0.0260)*
+1 - 3 : -0.624723 (0.5322)
+2 - 3 : -1.949294 (0.0769)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IL.9"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.747306 (1.0000)
+1 - 3 :  0.451793 (0.9771)
+2 - 3 :  0.065017 (0.9482)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "IP.10"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -1.327420 (0.5531)
+1 - 3 : -1.105433 (0.4035)
+2 - 3 : -0.413797 (0.6790)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "MCP.1"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.467291 (0.6403)
+1 - 3 : -0.996350 (0.4786)
+2 - 3 : -1.218716 (0.6689)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "MCP.3"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  1.337271 (0.5434)
+1 - 3 : -0.502756 (0.6151)
+2 - 3 : -1.174897 (0.3601)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "MDC"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.782146 (1.0000)
+1 - 3 : -0.200128 (0.8414)
+2 - 3 : -0.594683 (0.8281)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "MIP.1a"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  1.923332 (0.1633)
+1 - 3 : -0.941379 (0.3465)
+2 - 3 : -1.904761 (0.0852)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "MIP.1b"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+---------------------------
+1 - 2 :  3.557923 (0.0011)*
+1 - 3 :  0.095626 (0.9238)
+2 - 3 : -1.714499 (0.1297)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "PDGF.AA"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+---------------------------
+1 - 2 :  0.072128 (0.9425)
+1 - 3 : -2.563027 (0.0311)*
+2 - 3 : -2.560642 (0.0157)*
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "PDGF.AB.BB"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+---------------------------
+1 - 2 :  3.166599 (0.0046)*
+1 - 3 : -0.210436 (0.8333)
+2 - 3 : -1.816969 (0.1038)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "RANTES"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -1.280418 (0.3006)
+1 - 3 : -1.505406 (0.3967)
+2 - 3 : -0.831569 (0.4057)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "TGF.a"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  0.601377 (0.5476)
+1 - 3 : -1.191898 (0.3500)
+2 - 3 : -1.479448 (0.4171)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "TNFa"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  2.308966 (0.0628)
+1 - 3 :  0.646196 (0.7772)
+2 - 3 : -0.537411 (0.5910)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "TNFb"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 :  1.459290 (0.4335)
+1 - 3 :  0.032639 (0.9740)
+2 - 3 : -0.709687 (0.7168)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "VEGF"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+---------------------------
+1 - 2 : -2.498916 (0.0374)*
+1 - 3 :  0.422589 (0.6726)
+2 - 3 :  1.686474 (0.1376)
+
+alpha = 0.05
+Reject Ho if p <= alpha
+[1] "sCD40L"
+
+                           Comparison of x by group                            
+                             (Benjamini-Hochberg)                              
+
+List of pairwise comparisons: Z statistic (adjusted p-value)
+--------------------------
+1 - 2 : -0.343763 (0.7310)
+1 - 3 :  1.287525 (0.2969)
+2 - 3 :  1.442660 (0.4473)
+
+alpha = 0.05
+Reject Ho if p <= alpha
