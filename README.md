@@ -84,9 +84,12 @@ This code creates a similarity network of patients, with edge weights representi
 Spectral-Clustering is similarity based clustering algorithm that can be implemented on any similarity graph G to identify clusters in the vertex set V of the graph G. It uses eigenvalues of the Laplacian matrix computed using the adjacency matrix(similarity matrix) of G to perform dimensionality reduction before clustering them in lower dimensions using k-means.
 
 **Calculating the silhouette scores of the clusters**
+
 To calculate the silhouette scores, we use the function `silhouette_score` defined in `./results/sil.py`.
 The silhouette score for each object 'i', was defined in terms of similarities using the formula
+
 ![equation](https://latex.codecogs.com/gif.latex?S%28i%29%3D%5Cfrac%7Binter%5C%3BCluster%5C%3B%20affinity%28i%29%20-%20intra%5C%3Bcluster%5C%3B%20affinity%28i%29%7D%7Bmax%5C%7Binter%5C%3Bcluster%5C%3Baffinity%28i%29%2Cintra%5C%3Bcluster%5C%3Baffinity%28i%29%5C%7D%7D)
+
 The following python code can be used to calculate the average silhouette values of the clusters
 ```python
 import sil
@@ -130,7 +133,9 @@ wSNF_Analysis
 ```
 `SNF_weighted_iter` function of `function_snf.R` is the modified similarity network fusion that accounts for weights.  
 Equation (7) of [Similarity Network Fusion(SNF)](https://www.nature.com/articles/nmeth.2810) was modified as below to include weights where ![equation](https://latex.codecogs.com/gif.latex?%5Comega_%7Bk%7D) is the weight of microbiome 'k'. Other parameters are as defined in the paper.
+
 ![equation](https://latex.codecogs.com/gif.latex?P%5E%7B%28%5Cnu%29%7D%3DS%5E%7B%28%5Cnu%29%7D%20%5Ctimes%20%5Cfrac%7B%5Csum_%7Bk%20%5Cneq%20%5Cnu%7D%20%5Comega_%7Bk%7D%20%5Ctimes%20P%5E%7Bk%7D%7D%7B%5Csum_%7Bk%20%5Cneq%20%5Cnu%7D%20%5Comega_%7Bk%7D%7D%20%5Ctimes%20%28S%5E%7B%5Cnu%7D%29%5E%7BT%7D)
+
 **Note:** weighted SNF needs atleast 3 similarity matrices 
 ___
 ## Co-occurence analysis
