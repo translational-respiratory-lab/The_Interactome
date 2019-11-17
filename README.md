@@ -1,5 +1,6 @@
-# DOCUMENTATION of the Codes for Interactome
-This document illustrates the use of the codes to implement the methods described in the Interactome article
+# INTEGRATIVE MICROBIOMICS REVEALS A SIGNIFICANTLY ALTERED INTERACTOME IN BRONCHIECTASIS EXACERBATIONS
+---
+This document illustrates the use of the codes to implement the methods described in the article "Integrative Microbiomics reveals a significantly altered interactome in bronchiectasis exacerbations".
 ## Table of contents
 1. [Pre requisites](#pre-requisities)
 2. [Similarity Network Fusion(SNF)](#similarity-network-fusion)
@@ -188,6 +189,8 @@ Co-occurance_Analysis
         ├── pre_processes.py
         └── sil.py
 ```
+Below is an illustration of the co-occurence method implemented
+<p align="center"><img src="images/methods.png" alt="Co-occurence methods illustration" width="70%"></p>
 ## Cross-sectional co-occurence analysis
 ---
 This part of the documentation represents how to implement the co-occurence analysis on n=217 patients of the CAMEB cohort, with and without filtering(Microbes must be prevalent in atleast 5% of the patients at an abundance of 1%) the Microbial dataset.
