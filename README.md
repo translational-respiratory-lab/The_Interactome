@@ -1,6 +1,6 @@
-# INTEGRATIVE MICROBIOMICS REVEALS A SIGNIFICANTLY ALTERED INTERACTOME IN BRONCHIECTASIS EXACERBATIONS
+# INTEGRATIVE MICROBIOMICS REVEALS A DISRUPTED INTERACTOME IN BRONCHIECTASIS EXACERBATIONS
 ---
-This document illustrates the use of the codes to implement the methods described in the article "Integrative Microbiomics reveals a significantly altered interactome in bronchiectasis exacerbations".
+This document illustrates the use of the codes to implement the methods described in the article "Integrative Microbiomics reveals a disrupted interactome in bronchiectasis exacerbations".
 ## Table of contents
 1. [Pre requisites](#pre-requisities)
 2. [Similarity Network Fusion(SNF)](#similarity-network-fusion)
@@ -12,9 +12,9 @@ This document illustrates the use of the codes to implement the methods describe
     1. [Cross-sectional co-occurence analysis](#cross-sectional-co-occurence-analysis)
     2. [Longitudinal co-occurence analysis](#Longitudinal-co-occurence-analysis)
     3. [Differential network analysis](#Differential-network-analysis)
-    4. [Non-metric Dimensionality Scaling(NMDS)](#non-metric-dimensionality-scaling)
+    4. [Non-metric Dimensionality Scaling(NMDS)](#non-metric-dimensionality-scaling(nmds))
 ## Pre requisites
-You will need the following softwares and packages to run the codes flawlesssly.
+You will need the following softwares and packages to run the codes.
 For Linux systems, Run the following 
 ```
 sudo apt-get update && apt-get install -y python2.7 \
@@ -247,7 +247,7 @@ To implement differential network analysis navigate to ```./Interactome_Stabilit
 ![equation](https://latex.codecogs.com/gif.latex?%24%5Ctext%7BDifferential%20score%28a%2Cb%29%7D%3Dmax_%7Bi%7D%28e%5E%7Bi%7D_%7Ba%2Cb%7D%29-min_%7Bi%7D%28e%5E%7Bi%7D_%7Ba%2Cb%7D%29%24)
 ## Non-metric Dimensionality Scaling(NMDS)
 ---
-To implement NMDS analysis navigate to ```./NMDS``` directory and run the following commands
+To assess the beta-diversity we implement NMDS analysis. To run this analysis navigate to ```./NMDS``` directory and execute the following commands
 ```bash
 python pre_processes.py #Preprocesses the data 
 Rscript NMDS_wSNF.R 
