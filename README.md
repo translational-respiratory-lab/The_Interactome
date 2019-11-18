@@ -12,7 +12,7 @@ This document illustrates the use of the codes to implement the methods describe
     1. [Cross-sectional co-occurence analysis](#cross-sectional-co-occurence-analysis)
     2. [Longitudinal co-occurence analysis](#Longitudinal-co-occurence-analysis)
     3. [Differential network analysis](#Differential-network-analysis)
-    4. [Non-metric Dimensionality Scaling(NMDS)](#non-metric-dimensionality-scaling(nmds))
+    4. [Non-metric Dimensionality Scaling](#non-metric-dimensionality-scaling)
 ## Pre requisites
 You will need the following softwares and packages to run the codes.
 For Linux systems, Run the following 
@@ -245,7 +245,7 @@ To implement differential network analysis navigate to ```./Interactome_Stabilit
 
  Let ![equation](https://latex.codecogs.com/gif.latex?e%5E%7Bi%7D_%7Ba%2Cb%7D) denote the interaction between microbes "a" and "b" in "i", where ![equation](https://latex.codecogs.com/gif.latex?i%20%5Cin) (Baseline, Exacerbation, Post Exacerbation), then we define the differential score as, 
 ![equation](https://latex.codecogs.com/gif.latex?%24%5Ctext%7BDifferential%20score%28a%2Cb%29%7D%3Dmax_%7Bi%7D%28e%5E%7Bi%7D_%7Ba%2Cb%7D%29-min_%7Bi%7D%28e%5E%7Bi%7D_%7Ba%2Cb%7D%29%24)
-## Non-metric Dimensionality Scaling(NMDS)
+## Non-metric Dimensionality Scaling
 ---
 To assess the beta-diversity we implement NMDS analysis. To run this analysis navigate to ```./NMDS``` directory and execute the following commands
 ```bash
