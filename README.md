@@ -10,8 +10,8 @@ This document illustrates the use of the codes to implement the methods describe
 3. [Weighted SNF](#weighted-snf)
 4. [Co-occurence analysis](#co-occurence-analysis)
     1. [Cross-sectional co-occurence analysis](#cross-sectional-co-occurence-analysis)
-    2. [Longitudinal co-occurence analysis](#Longitudinal-co-occurence-analysis)
-    3. [Differential network analysis](#Differential-network-analysis)
+    2. [Longitudinal co-occurence analysis](#longitudinal-co-occurence-analysis)
+    3. [Differential network analysis](#differential-network-analysis)
     4. [Non-metric Dimensionality Scaling](#non-metric-dimensionality-scaling)
 ## Pre requisites
 You will need the following softwares and packages to run the codes.
@@ -191,6 +191,7 @@ Co-occurance_Analysis
 ```
 Below is an illustration of the co-occurence method implemented
 <p align="center"><img src="images/methods.png" alt="Co-occurence methods illustration" width="70%"></p>
+
 ## Cross-sectional co-occurence analysis
 ---
 This part of the documentation represents how to implement the co-occurence analysis on n=217 patients of the CAMEB cohort, with and without filtering(Microbes must be prevalent in atleast 5% of the patients at an abundance of 1%) the Microbial dataset.
