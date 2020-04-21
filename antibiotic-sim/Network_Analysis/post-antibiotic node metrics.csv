@@ -1,0 +1,14 @@
+BetweennessCentrality,EdgeCount,name,Stress
+0.01212121,24,MPV,15
+0.00808081,22,Flu_B,10
+0.01212121,24,RV,15
+0.00723906,20,Curvularia,9
+0.00808081,22,Saccharomyces,10
+0.00723906,20,Candida,9
+0.00892256,22,Prevotella,11
+0.01212121,24,Granulicatella,15
+0.00892256,22,Neisseria,11
+0.00808081,19,Veillonella,10
+0.00555556,20,Streptococcus,7
+0.00555556,20,Haemophilus,7
+0.00959596,23,Pseudomonas,12
