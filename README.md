@@ -13,6 +13,7 @@ This document illustrates the use of the codes to implement the methods describe
     2. [Longitudinal co-occurence analysis](#longitudinal-co-occurence-analysis)
     3. [Differential network analysis](#differential-network-analysis)
     4. [Non-metric Dimensionality Scaling](#non-metric-dimensionality-scaling)
+5. [Anti-biotic action modelling](#anti-biotic-action-modelling)
 ## Pre requisites
 You will need the following softwares and packages to run the codes.
 For Linux systems, Run the following 
@@ -254,3 +255,24 @@ python pre_processes.py #Preprocesses the data
 Rscript NMDS_wSNF.R 
 ```
 We pre-process the dataset to remove microbes that are not present in atleast 5% of the samples. We implement wSNF at each time point, say ![equation](https://latex.codecogs.com/gif.latex?%24%5C%7BW_%7B1%7D%2CW_%7B2%7D%2CW_%7B3%7D%5C%7D%24) are the integrated similarity matrices from Baseline, Exacerbation and Post-exacerbation. We then implement NMDS using ![equation](https://latex.codecogs.com/gif.latex?%24%5C%7B0.5-W_%7B1%7D%2C0.5-W_%7B2%7D%2C0.5-W_%7B3%7D%5C%7D%24) as the disimilarity index, since 0.5 is the maximum value the integrated similarity matrix can take.
+## Anti-biotic action Modelling
+---
+##### Additional Requirements
+1.  python 3.6.9
+    - py2cytoscape 
+    - pandas
+
+To model the action of antibiotic ![equation](https://latex.codecogs.com/gif.latex?%5Cbeta)-lactum.
+We considered 12 patients from the Longitudinal cohort who had been given a beta-lactum. Navigate to the ```./antibiotic-sim``` directory and Run the following
+```bash
+python3 collate.py
+```
+This code selectes these 12 patients, reduces the relative abundance of the microbes by 75% that are affected by beta-lactum and applies the abundance-prevalance filter so as to keep only microbes that are atleast 1% abundant and prevalent in atleast 3 patients in the in the pre OR post OR modeled antibiotic state. This would produce three files "Microbes_pre.csv", "Microbes_post.csv" and "Microbes_75%_reduction.csv" denoting the pre, post and modeled antibiotic state.
+
+We implement co-occurence analysis on these three files as described in the above section. The output adjacency matrix is stored in the directory ```./Co-occurence_results```
+
+Cytoscape was used to import these adjaceny matrix using the *aMatReader* App. Network metrics such as node degree, stress centrality and betweeness centrality was calculated using the *Network Analyser* App. These results are saved as ```* node metrics.csv```. *Diffany* App was used to implement differential network analysis with pre-antibiotic interactome as reference. The edge table from the diffany analysis was exported as ```diffany_* edge weights.csv```
+
+Since the output edge table from *Diffany* don't have the edges named. A python script ```cytoscape_name.py``` which uses the Cyrest API was implemented to name the edges based on the nodes each edge connects. The resulting modified edge table was then exported back as ```diffany_* edge weights.csv```. 
+
+```count_sim.py``` was then implemented to calculate the percentage(%) of the modeled interactome edges that are present in the actual post-antibiotic interactome.
