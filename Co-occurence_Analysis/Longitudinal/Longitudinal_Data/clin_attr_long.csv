@@ -1,0 +1,20 @@
+﻿sample.number,bronchiectasis.aetiology,gender,age,exacerbation.frequency,prior.hospitlisations,hospitalised,FEV1.PC.at.baseline,FEV1.over.FVC,BSI,disease.severity,baseline,exacerbation,post.exacerbation,antibiotic,antibiotic.class
+323,Rheumatoidarthritis,Female,70,5,1,1,62.2,60%,17,severe,9/7/16,22/3/17,9/6/17,Ciprofloxacin,Fluoroquinolone
+14,Idiopathic,Female,74,0,0,0,70.0,75%,6,moderate,1/6/17,17/8/17,12/10/17,Amoxicillin,Beta.lactam
+217,Idiopathic,Female,72,4,0,0,90.4,62%,6,moderate,17/3/16,22/2/17,27/4/17,Piperacillin-tazobactam,Beta.lactam
+276,Idiopathic,Male,69,2,0,0,77.0,59%,6,moderate,29/3/17,25/5/17,17/8/17,Amoxicillin,Beta.lactam
+394,Rheumatoidarthritis,Female,77,5,1,1,53.6,86%,18,severe,12/1/17,8/3/17,27/5/17,Piperacillin-tazobactam,Beta.lactam
+334,Idiopathic,Female,74,11,1,1,38.4,54%,15,severe,18/3/16,22/5/16,1/7/16,Meropenem,Beta.lactam
+540,ulcerative colitis,Female,68,1,0,0,78.4,78%,3,mild,1/9/17,21/11/17,23/1/18,Amoxicillin,Beta.lactam
+169,Idiopathic,Female,77,5,1,1,71.0,61%,10,severe,15/7/16,19/12/16,23/2/17,ceftazidime,Beta.lactam
+1111,Idiopathic,Male,58,6,0,0,87.0,53%,5,moderate,1/3/17,1/7/17,26/7/17,doxycycline,Tetracycline
+128,Idiopathic,Female,66,4,1,1,42.0,50%,15,severe,11/3/16,8/6/16,3/9/16,Ciprofloxacin,Fluoroquinolone
+205,Inflammatoryboweldisease,Female,67,7,2,1,43.4,55%,9,severe,22/1/16,29/7/16,17/8/16,Piperacillin-tazobactam,Beta.lactam
+515,Idiopathic,Male,70,8,0,0,53.0,29%,10,severe,29/4/17,14/9/17,1/11/17,Amoxicillin,Beta.lactam
+127,PostInfective,Female,72,3,0,0,67.5,61%,12,severe,13/1/17,8/2/17,14/3/17,Ciprofloxacin,Fluoroquinolone
+252,Idiopathic,Male,66,6,0,0,82.1,55%,3,mild,3/2/16,11/2/16,29/4/17,doxycycline,Tetracycline
+425,alpha-1 at,Male,78,2,0,0,47.0,50%,14,severe,18/1/17,28/2/17,1/3/17,Amoxicillin,Beta.lactam
+28,Idiopathic,Male,72,3,0,0,31.9,30%,12,severe,6/11/16,20/5/17,6/10/17,co-amoxiclav,Beta.lactam
+125,Idiopathic,Female,82,3,0,0,89.7,64%,6,moderate,12/5/17,31/5/17,8/7/17,Amoxicillin,Beta.lactam
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
