@@ -1,9 +1,9 @@
 library("SNFtool")
 library("vegan")
 
-b_data=read.csv("./../../Data/bacteria.csv",row.names = 1)
-f_data=read.csv("./../../Data/fungi.csv",row.names = 1)
-v_data=read.csv("./../../Data/virus.csv",row.names = 1)
+b_data=read.csv("./../../Data/1_Targeted/bacteria.csv",row.names = 1)
+f_data=read.csv("./../../Data/1_Targeted/fungi.csv",row.names = 1)
+v_data=read.csv("./../../Data/1_Targeted/virus.csv",row.names = 1)
 
 #Filter
 list_sel=list()

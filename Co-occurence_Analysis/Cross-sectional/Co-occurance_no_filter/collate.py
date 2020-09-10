@@ -1,9 +1,9 @@
 from __future__ import division
 import pandas
 
-bac=pandas.read_csv("./../../../Data/bacteria.csv",index_col=0)
-fun=pandas.read_csv("./../../../Data/fungi.csv",index_col=0)
-vir=pandas.read_csv("./../../../Data/virus.csv",index_col=0)
+bac=pandas.read_csv("./../../../Data/1_Targeted/bacteria.csv",index_col=0)
+fun=pandas.read_csv("./../../../Data/1_Targeted/fungi.csv",index_col=0)
+vir=pandas.read_csv("./../../../Data/1_Targeted/virus.csv",index_col=0)
 lab=pandas.read_csv("./../../../wSNF_Analysis/Merged_biome_clustering/results/labels.csv",index_col=0)
 
 vir=vir.div(vir.sum(axis=1), axis=0)

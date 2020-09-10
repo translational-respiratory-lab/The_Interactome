@@ -5,9 +5,9 @@ use_python("/usr/local/bin/python")
 source_python("./../sil.py")
 source("modified_est-cluster.R")
 
-b_data=read.csv("./../../Data/bacteria.csv",row.names = 1)
-f_data=read.csv("./../../Data/fungi.csv",row.names = 1)
-v_data=read.csv("./../../Data/virus.csv",row.names = 1)
+b_data=read.csv("./../../Data/1_Targeted/bacteria.csv",row.names = 1)
+f_data=read.csv("./../../Data/1_Targeted/fungi.csv",row.names = 1)
+v_data=read.csv("./../../Data/1_Targeted/virus.csv",row.names = 1)
 
 #Filtering the dataset
 list_sel=list()
