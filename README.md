@@ -15,6 +15,7 @@ This document illustrates the use of the codes to implement the methods describe
     4. [Non-metric Dimensionality Scaling](#non-metric-dimensionality-scaling)
 5. [Anti-biotic action modelling](#anti-biotic-action-modelling)
 6. [Time to next exacerbation - Prediction](#time-to-next-exacerbation---prediction)
+7. [Robustness of weighted SNF](#robustness-of-weighted-snf)
 ## Pre requisites
 You will need the following softwares and packages to run the codes.
 For Linux systems, Run the following 
@@ -287,5 +288,8 @@ Since the output edge table from *Diffany* don't have the edges named. A python 
     - [compositions](https://cran.r-project.org/web/packages/compositions/index.html)
     - [SummarizedExperiment](https://bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html)
  
-All the codes necessary to implement this analysis can be found at ```bash ./Time_to_next_Exac-Pred``` 
+All the codes necessary to implement this analysis can be found at ``` ./Time_to_next_Exac-Pred``` 
 
+## Robustness of weighted SNF
+---
+Codes to run/assess the robustness of weighted SNF can be found at ```./Bootstrap_robustness```
