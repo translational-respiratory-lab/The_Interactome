@@ -14,6 +14,7 @@ This document illustrates the use of the codes to implement the methods describe
     3. [Differential network analysis](#differential-network-analysis)
     4. [Non-metric Dimensionality Scaling](#non-metric-dimensionality-scaling)
 5. [Anti-biotic action modelling](#anti-biotic-action-modelling)
+6. [Time to next exacerbation - Prediction](#time-to-next-exacerbation---prediction)
 ## Pre requisites
 You will need the following softwares and packages to run the codes.
 For Linux systems, Run the following 
@@ -43,7 +44,7 @@ sudo apt-get update && apt-get install -y python2.7 \
     - [boot](https://cran.r-project.org/web/packages/boot/boot.pdf)
     - [gMCP](https://cran.r-project.org/web/packages/gMCP/index.html)
     - [minet](https://www.bioconductor.org/packages/release/bioc/html/minet.html)
-
+    
 **Note:**
 For windows and other operating system try running [this docker image](https://hub.docker.com/repository/docker/jayanthkumar/co-occurance_analysis), to implement co-occurence analysis and install all the following packages onto the docker container for implementation of other analyses.
 1. Python 2.7
@@ -276,3 +277,15 @@ Cytoscape was used to import these adjaceny matrix using the *aMatReader* App. N
 Since the output edge table from *Diffany* don't have the edges named. A python script ```cytoscape_name.py``` which uses the Cyrest API was implemented to name the edges based on the nodes each edge connects. The resulting modified edge table was then exported back as ```diffany_* edge weights.csv```. 
 
 ```count_sim.py``` was then implemented to calculate the percentage(%) of the modeled interactome edges that are present in the actual post-antibiotic interactome.
+
+## Time to next exacerbation - Prediction
+---
+##### Additional Requirements
+1.  R
+    - [lioness](http://www.bioconductor.org/packages/release/bioc/html/lionessR.html)
+    - [earth](https://cran.r-project.org/web/packages/earth/index.html)
+    - [compositions](https://cran.r-project.org/web/packages/compositions/index.html)
+    - [SummarizedExperiment](https://bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html)
+ 
+All the codes necessary to implement this analysis can be found at ```bash ./Time_to_next_Exac-Pred``` 
+
