@@ -56,7 +56,7 @@ For windows and other operating system try running [this docker image](https://h
     - [SNFtool](https://cran.r-project.org/web/packages/SNFtool/index.html)
     - [reticulate](https://cran.r-project.org/web/packages/reticulate/index.html)
 
-The datasets used in the article are available in the `./Data` directory.
+Three(2 cross-sectional and 1 longitudinal) datasets are reported in this manuscript. The two cross-sectional datasets(targetted and metagenomics) are available in the `./Data` directory, while the longitudinal is available at ```/Co-occurence_Analysis/Longitudinal/Longitudinal_Data```. The codes/analysis in this repository uses targetted datasets as an example, this can be easily replaced with the metagenomic datasets to derive results for metagenomic analysis.
 ## Similarity Network Fusion
 Navigate to `./SNF_Analysis` 
 ``` bash
