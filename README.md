@@ -248,7 +248,7 @@ python Adjacency_matrix_creator.py #Creates the adjacency matrix to be passed to
 To implement differential network analysis navigate to ```./Interactome_Stability_Analysis``` and execute the script ```differential_matrix_creator.py``` as ```python differential_matrix_creator.py```
 
  Let ![equation](https://latex.codecogs.com/gif.latex?e%5E%7Bi%7D_%7Ba%2Cb%7D) denote the interaction between microbes "a" and "b" in "i", where ![equation](https://latex.codecogs.com/gif.latex?i%20%5Cin) (Baseline, Exacerbation, Post Exacerbation), then we define the differential score as, 
-![equation](https://latex.codecogs.com/gif.latex?%24%5Ctext%7BDifferential%20score%28a%2Cb%29%7D%3Dmax_%7Bi%7D%28e%5E%7Bi%7D_%7Ba%2Cb%7D%29-min_%7Bi%7D%28e%5E%7Bi%7D_%7Ba%2Cb%7D%29%24)
+![equation](http://latex.codecogs.com/gif.latex?\dpi{110}&space;\text{Differntial&space;score&space;}(a,b)&space;=&space;max_{i}(e^{i}_{a,b})-min_{i}(e^{i}_{a,b}))
 ## Non-metric Dimensionality Scaling
 ---
 To assess the beta-diversity we implement NMDS analysis. To run this analysis navigate to ```./NMDS``` directory and execute the following commands
