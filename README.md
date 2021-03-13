@@ -256,7 +256,7 @@ To assess the beta-diversity we implement NMDS analysis. To run this analysis na
 python pre_processes.py #Preprocesses the data 
 Rscript NMDS_wSNF.R 
 ```
-We pre-process the dataset to remove microbes that are not present in atleast 5% of the samples. We implement wSNF at each time point, say ![equation](https://latex.codecogs.com/gif.latex?%24%5C%7BW_%7B1%7D%2CW_%7B2%7D%2CW_%7B3%7D%5C%7D%24) are the integrated similarity matrices from Baseline, Exacerbation and Post-exacerbation. We then implement NMDS using ![equation](https://latex.codecogs.com/gif.latex?%24%5C%7B0.5-W_%7B1%7D%2C0.5-W_%7B2%7D%2C0.5-W_%7B3%7D%5C%7D%24) as the disimilarity index, since 0.5 is the maximum value the integrated similarity matrix can take.
+We pre-process the dataset to remove microbes that are not present in atleast 5% of the samples. We implement wSNF at each time point, say ![equation](http://latex.codecogs.com/gif.latex?%5Cdpi%7B110%7D%20(W_%7Bt1%7D,W_%7Bt2%7D,W_%7Bt3%7D)) are the integrated similarity matrices from Baseline, Exacerbation and Post-exacerbation. We then implement NMDS using ![equation](http://latex.codecogs.com/gif.latex?%5Cdpi%7B110%7D%20(0.5-W_%7Bt1%7D,0.5-W_%7Bt2%7D,0.5-W_%7Bt3%7D)) as the disimilarity index, since 0.5 is the maximum value the integrated similarity matrix can take.
 ## Anti-biotic action Modelling
 ---
 ##### Additional Requirements
