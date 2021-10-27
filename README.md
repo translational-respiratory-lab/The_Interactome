@@ -1,6 +1,6 @@
 # INTEGRATIVE MICROBIOMICS REVEALS A DISRUPTED INTERACTOME IN BRONCHIECTASIS EXACERBATIONS
 ---
-This document illustrates the use of the codes to implement the methods described in the article "Integrative Microbiomics reveals a disrupted interactome in bronchiectasis exacerbations".
+This document illustrates the use of the codes to implement the methods described in the article "Integrative Microbiomics reveals a disrupted interactome in bronchiectasis exacerbations" (https://www.nature.com/articles/s41591-021-01289-7).
 ## Table of contents
 1. [Pre requisites](#pre-requisities)
 2. [Similarity Network Fusion(SNF)](#similarity-network-fusion)
